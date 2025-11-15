@@ -61,3 +61,4 @@ func TestWatch(t *testing.T) {
 		t.Fatalf("expected user:1, got %s", event.Key)
 	}
 }
+// TODO: benchmark concurrent writes
