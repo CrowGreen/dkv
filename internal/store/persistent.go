@@ -66,3 +66,4 @@ func (s *Store) LoadSnapshot(path string, enc *crypto.Encryptor) error {
 	}
 	return nil
 }
+// need to handle corrupted snapshot files
