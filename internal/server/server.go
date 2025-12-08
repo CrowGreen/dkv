@@ -99,4 +99,3 @@ func (s *KVServer) Watch(req *pb.WatchRequest, stream pb.KVStore_WatchServer) er
 		}
 	}
 }
-// batch put isnt logging properly
