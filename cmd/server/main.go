@@ -116,3 +116,4 @@ func main() {
 		log.Fatal("serve:", err)
 	}
 }
+// ensure wal.Sync before snapshot
