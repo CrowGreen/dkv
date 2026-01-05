@@ -202,3 +202,4 @@ func (n *ReplicaNode) HandleVoteRequest(candidateID string, term int64) (int64, 
 }
 
 var ErrNotLeader = context.DeadlineExceeded // placeholder
+// election timeout is too aggressive for 3-node cluster
