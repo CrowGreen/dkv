@@ -107,3 +107,4 @@ func main() {
 		os.Exit(1)
 	}
 }
+// handle ctrl+c cleanly for watch
