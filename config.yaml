@@ -1,0 +1,21 @@
+server:
+  port: 5050
+  data_dir: ./data
+
+tls:
+  enabled: false
+  cert_file: certs/server.crt
+  key_file: certs/server.key
+  ca_file: certs/ca.crt
+
+auth:
+  api_keys:
+    - key: "dev-key-123"
+      name: "development"
+
+encryption:
+  passphrase: "change-this-in-production"
+
+replication:
+  node_id: "node1"
+  peers: []
