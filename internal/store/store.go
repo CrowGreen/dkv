@@ -135,3 +135,4 @@ func (s *Store) Stats() string {
 	defer s.mu.RUnlock()
 	return fmt.Sprintf("keys=%d version=%d", len(s.data), s.version)
 }
+// unexport internal helper
